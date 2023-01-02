@@ -6,11 +6,6 @@ document.addEventListener("click", cactusmove)
 function cactusmove(){
   if (cactus.classList != "cactus-move"){
     cactus.classList.add("cactus-move");
-    setInterval(function(){
-      var pic = document.getElementById("rex");
-      pic.src("dino"+(i%2).toString()+"png");
-      let i = 1;
-      i++;}, 30);
     n.style.setProperty('opacity', '0');
   }
 }
